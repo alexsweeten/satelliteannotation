@@ -1,11 +1,4 @@
 # satelliteannotation
-Repo containing the scripts & algorithms for "Alignment-Free Annotation of Satellite DNA"
+Repo containing scripts and code used to generate data and figures for our mansucript "AniAnn’s: alignment-free annotation of tandem repeat arrays using fast average nucleotide identity estimates".  https://doi.org/10.64898/2026.01.27.702063
 
-## Requirements
-- Nextflow >= 24.0
-- Python >= 3.7
-
-## How to run pipeline
-`nextflow moddotplot.nf`
-
-- This will run the pipeline across all fasta files in the current working directory.
+Bedfiles used are contained within the corresponding directory. experiments.ipynb contains code used for metrics.
